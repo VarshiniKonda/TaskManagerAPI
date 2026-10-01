@@ -42,3 +42,13 @@ Add the following header to protected requests:
 
 ```text
 Authorization: Token YOUR_TOKEN
+## Docker Setup
+
+### Prerequisites
+
+- Docker Desktop installed and running
+
+### Build the Docker Image
+
+```bash
+docker build -t taskmanagerapi .
